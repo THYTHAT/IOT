@@ -1,0 +1,497 @@
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('A1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: none;
+    border-radius: 30px;
+    backdrop-filter: blur(10px) brightness(80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+h3{ 
+    /* position:absolute; */
+    text-align:start;
+    font-size: 3em;
+    color :cadetblue;
+    margin: 50px 0 10px;
+}
+.inputbox {
+    position: relative;
+    margin: 50px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #f7f4f4;
+    font-size: 1.4em;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+/* animations: start */
+input:focus~label,
+input:valid~label {
+    top: -5px;
+}
+
+/* animation:end */
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.4em;
+    padding: 0 35px 0 5px;
+    color: #ffffff;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.forget {
+    margin: -10px 0 17px;
+    font-size: 1em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget label input {
+    margin-right: 3px;
+}
+
+.forget a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.forget a:hover {
+    text-decoration: underline;
+}
+/* .logout-btn{
+    position:absolute;
+    width: 8%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #666789;
+    border: none;
+    font-size: 1em;
+    font-weight: 200;
+    padding: 1px 10px;
+    justify-content:right;
+    transition: tranform 0.2s ease;
+    text-align: center;
+    grid-row-end:auto;
+} */
+
+.button:active{
+    transform: scale(0.96);
+}
+
+.button {
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 200;
+    padding: 1px 10px;
+}
+
+.register {
+    font-size: 0.9em;
+    color: #9d2323;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+    .form-box {
+        width: 100%;
+        border-radius: 0px;
+    }
+}
+section1 {
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('A1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+/* button Logout */
+
+.logout-btn{
+    background-color: rgb(231, 120, 168);
+    left: 87%;
+    position: absolute;
+
+    border: none;
+    padding: 20px 40px;
+    border-radius: 15px;
+    color: rgb(6, 9, 49);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    /* margin: 45px 0 10px; */
+    margin: -70px 5px;
+    cursor: pointer;
+}
+.logout-btn:active{
+    transform: scale(0.96);
+}
+
+/* Khan in Phnom Penh City */
+
+h1{
+    font-size: 4em;
+    color :rgb(65, 226, 124);
+    /* text-align:center; */
+    margin: 45px 0 10px;
+}
+
+/* Button Khan in Map */
+
+.Button1{
+    border: none;
+    padding: 30px 80px;
+    border-radius: 30px;
+    color: rgb(28, 40, 211);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    /* margin: 160px  10px; */
+    margin: 330px 10px;
+    cursor: pointer;
+    /* backdrop-filter: blur(10px) brightness(80%); */
+}
+.button1:hover{
+    background-color: #22cdc2;
+  }
+  
+
+.button1{
+    backdrop-filter: blur(10px) brightness(80%);
+    background-color: rgb(234, 155, 103);
+    left: 5%;
+    position: absolute;
+
+}
+.button1:active{
+    transform: scale(0.96);
+}
+.Button2{
+    border: none;
+    padding: 30px 80px;
+    border-radius: 30px;
+    color: rgb(28, 40, 211);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    /* margin: 270px 10px; */
+    margin: 430px 10px;
+    cursor: pointer;
+}
+.button2{
+    background-color: rgb(234, 155, 103);
+    left: 5%;
+    position: absolute;
+}
+.button2:active{
+    transform: scale(0.96);
+}
+.button2:hover{
+    background-color: #22cdc2;
+  }
+.Button3{
+    border: none;
+    padding: 30px 60px;
+    border-radius: 30px;
+    color: rgb(28, 40, 211);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    /* margin: 500px 10px; */
+    margin: 655px 10px;
+    cursor: pointer;
+}
+.button3{
+    background-color: rgb(234, 155, 103);
+    left: 5%;
+    position: absolute;
+}
+.button3:active{
+    transform: scale(0.96);
+}
+.button3:hover{
+    background-color: #22cdc2;
+  }
+.Button4{
+    border: none;
+    padding: 30px 90px;
+    border-radius: 30px;
+    color: rgb(28, 40, 211);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    /* margin: 730px  10px; */
+    margin: 880px 10px;
+    cursor: pointer;
+}
+.button4{
+    background-color: rgb(234, 155, 103);
+    left: 5%;
+    position: absolute;
+}
+.button4:active{
+    transform: scale(0.96);
+}
+.button4:hover{
+    background-color: #22cdc2;
+  }
+.Button5{
+    border: none;
+    padding: 30px 90px;
+    border-radius: 30px;
+    color: rgb(28, 40, 211);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    /* margin: 35px  10px; */
+    margin: 200px 10px;
+    cursor: pointer;
+}
+.button5{
+    background-color: rgb(234, 155, 103);
+    left: 38%;
+    position: absolute;
+}
+.button5:active{
+    transform: scale(0.96);
+}
+.button5:hover{
+    background-color: #22cdc2;
+  }
+.Button6{
+    border: none;
+    padding: 30px 90px;
+    border-radius: 30px;
+    color: rgb(28, 40, 211);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    /* margin: 270px  10px; */
+    margin: 430px 10px;
+    cursor: pointer;
+}
+.button6{
+    background-color: rgb(234, 155, 103);
+    left: 38%;
+    position: absolute;
+}
+.button6:active{
+    transform: scale(0.96);
+}
+.button6:hover{
+    background-color: #22cdc2;
+  }
+.Button7{
+    border: none;
+    padding: 30px 70px;
+    border-radius: 30px;
+    color: rgb(28, 40, 211);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    /* margin: 500px  10px; */
+    margin: 655px 10px;
+    cursor: pointer;
+}
+.button7{
+    background-color: rgb(234, 155, 103);
+    left: 38%;
+    position: absolute;
+}
+.button7:active{
+    transform: scale(0.96);
+}
+.button7:hover{
+    background-color: #22cdc2;
+  }
+.Button8{
+    border: none;
+    padding: 30px 100px;
+    border-radius: 30px;
+    color: rgb(28, 40, 211);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    /* margin: 730px  10px; */
+    margin: 880px 10px;
+    cursor: pointer;
+}
+.button8{
+    background-color: rgb(234, 155, 103);
+    left: 38%;
+    position: absolute;
+}
+.button8:active{
+    
+    transform: scale(0.96);
+}
+.button8:hover{
+    background-color: #22cdc2;
+  }
+.Button9{
+    border: none;
+    padding: 30px 60px;
+    border-radius: 30px;
+    color: rgb(28, 40, 211);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    margin: 30px  10px;
+    margin: 200px 10px;
+    cursor: pointer;
+}
+.button9{
+    background-color: rgb(234, 155, 103);
+    left: 75%;
+    position: absolute;
+}
+.button9:active{
+    transform: scale(0.96);
+}
+.button9:hover{
+    background-color: #22cdc2;
+  }
+.Button10{
+    border: none;
+    padding: 30px 30px;
+    border-radius: 30px;
+    color: rgb(28, 40, 211);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    /* margin: 270px  10px; */
+    margin: 425px 10px;
+    cursor: pointer;
+}
+.button10{
+    background-color: rgb(234, 155, 103);
+    left: 75%;
+    position: absolute;
+}
+.button10:active{
+    transform: scale(0.96);
+}
+.button10:hover{
+    background-color: #22cdc2;
+  }
+.Button11{
+    border: none;
+    padding: 30px 100px;
+    border-radius: 30px;
+    color: rgb(28, 40, 211);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    /* margin: 500px  10px; */
+    margin: 655px 10px;
+    cursor: pointer;
+}
+.button11{
+    background-color: rgb(234, 155, 103);
+    left: 75%;
+    position: absolute;
+}
+.button11:active{
+    transform: scale(0.96);
+}
+.button11:hover{
+    background-color: #22cdc2;
+  }
+.Button12{
+    border: none;
+    padding: 30px 70px;
+    border-radius: 30px;
+    color: rgb(28, 40, 211);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    /* margin: 730px  10px; */
+    margin: 880px 10px;
+    cursor: pointer;
+}
+.button12{
+    background-color: rgb(234, 155, 103);
+    left: 75%;
+    position: absolute;
+}
+.button12:active{
+    transform: scale(0.96);
+}
+.button12:hover{
+    background-color: #22cdc2;
+  }
